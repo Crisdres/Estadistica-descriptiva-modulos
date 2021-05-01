@@ -26,7 +26,7 @@ class BasesDatos():
         """Crea los rangos de agrupacion y crea un data frame"""
         
         print("\nDATOS INICIALES\nmuestra = {}, rango= {},clases= {}, amplitud= {}".
-              format(self.n,self.r,self.k,self.am)
+              format(self.n,self.r,self.k,self.am))
         fre,fre_a,k=[],[],0
         lim_inf=[i for i in range(self.lista[0],self.lista[-1]+1,self.am)]
         lim_sup=[i for i in range(self.lista[0]+self.am,self.lista[-1]+1+self.am,self.am)]
